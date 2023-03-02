@@ -1,5 +1,5 @@
-const inputTarefa = document.querySelector('.input-tarefa');
-const btnTarefa = document.querySelector('.btn-tarefa');
+const inputTarefa = document.querySelector('.input_tarefa');
+const btnTarefa = document.querySelector('.btn_tarefa');
 const tarefas = document.querySelector('.tarefas');
 
 function criaLi() {
@@ -22,7 +22,7 @@ function limpaInput() {
 function criaBotaoApagar(li) {
   li.innerText += ' ';
   const botaoApagar = document.createElement('button');
-  botaoApagar.innerText = 'Apagar';
+  botaoApagar.innerText = 'FINISH';
   // botaoApagar.classList.add('apagar');
   botaoApagar.setAttribute('class', 'apagar');
   botaoApagar.setAttribute('title', 'Apagar esta tarefa');

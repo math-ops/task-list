@@ -5,22 +5,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Modelo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Task List</title>
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
   <section class="container">
-    <h1>Lista de tarefas</h1>
+    <h1 class="input_title">INSERT A NEW TASK</h1>
     <p>
-      <input type="text" class="input-tarefa">
-      <button class="btn-tarefa">Adicionar nova tarefa</button>
+      <input type="text" class="input_tarefa">
+      <button class="btn_tarefa">+ TASK</button>
     </p>
 
-    <ul class="tarefas"></ul>
   </section>
+  <section class="lista_tarefas">
+    <h1 class="title_list">TASK LIST:</h1>
+    <ul class="tarefas"></ul>
 
+  </section>
+  
   <script src="./assets/js/main.js"></script>
 </body>
 
